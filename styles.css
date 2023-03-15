@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    max-width: 1440px;
+    font-size: 16px;
+    
+   
+}
+.header {
+    margin-left: 150px;
+    letter-spacing: 20px;
+    margin-top: 60px;
+}
+.header h2 {
+    margin-top: -30px;
+    font-size: 50px;
+}
+h3 {
+    margin-left: 170px;
+    margin-top: 100px;
+}
+.description p {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -50px;
+    font-size: 17px;
+    margin-left: 150px;
+    color: orange;
+    font-weight: 300px;
+    display: flex;
+}
+.email {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    margin-left: 70px;
+    
+    
+}
+img {
+    height: 500px;
+    margin-left: 750px;
+    margin-top: -500px;
+    
+}
+.position {
+    position: sticky;
+    overflow: hidden;
+}
+footer {
+    margin-top: -5px;
+}
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        height: 100px;
+    }
+    h3 {
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 20px;
+
+    }
+    .header {
+        margin-top: 100px;
+        margin-left: 10px;
+        background-image: url('hero-mobile.jpg');
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        letter-spacing: 2px;
+        
+    }
+    .header h1 {
+        margin-top: -20px;
+    }
+    footer {
+        font-size: 15px;
+    }
+
+    .description p {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .email {
+        margin-left: 10px;
+        letter-spacing: 2px;
+    }
+    .position {
+        margin-left: -10px;
+    }
+  }
+  
+  
